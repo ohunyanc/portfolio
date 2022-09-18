@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/mee-about.jpg'
 import {TbMilitaryAward} from 'react-icons/tb'
 import {FaUsers} from 'react-icons/fa'
 import {SiTestinglibrary} from 'react-icons/si'

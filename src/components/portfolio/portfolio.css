@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .portfolio__item {

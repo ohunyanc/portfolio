@@ -48,7 +48,7 @@ demo: 'https://cdn.dribbble.com/userupload/3581119/file/original-81e7fe13f90757d
   title:'We help tackle your problems',
   github: 'https://github.com',
   demo: 'https://cdn.dribbble.com/userupload/3512611/file/original-de7df098a10589b245983206a3ff0218.png?compress=1&resize=1504x1128'
-  },
+  }
 
 ]
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
             
                <div className='portfolio__item-cta'>
                  <a href={github} className='btn' target='_blank' rel="oopener noreferrer">Github</a>
-                 <a href={demo} className='btn btn-primary' target='_blank' rel="oopener noreferrer">Live Demo</a>
+                 <a href={demo} className='btn btn-primary' target='_blank' rel="oopener noreferrer">Demo</a>
                </div>
         </article>
             )

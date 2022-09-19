@@ -11,7 +11,7 @@ const data = [
   {
     id:1,
   image: IMG1,
-  title:'Global present and the connections between',
+  title:'Global presence and the connections between',
   github: 'https://github.com',
   demo: 'https://cdn.dribbble.com/userupload/3489053/file/original-e152ff30a6e9d4662b38f6908d198506.jpg?compress=1&resize=752x'
 },
@@ -25,14 +25,14 @@ demo: 'https://cdn.dribbble.com/userupload/3493091/file/original-ccc74fa584c086f
 {
   id:3,
 image: IMG3,
-title:'futuristic map',
+title:'Futuristic map',
 github: 'https://github.com',
 demo: 'https://cdn.dribbble.com/userupload/3493073/file/original-294e5342fa03518885be29baf18479c3.jpg?compress=1&resize=1504x1128'
 },
 {
   id:4,
 image: IMG4,
-title:'futuristic map',
+title:'Ultimate goal',
 github: 'https://github.com',
 demo: 'https://cdn.dribbble.com/users/1724719/screenshots/19426615/media/5bf8e74bff55e34d06a513f42539475a.png?compress=1&resize=1200x900&vertical=top'
 },

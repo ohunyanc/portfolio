@@ -62,6 +62,10 @@ textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    input:focus,
+    textarea:focus {
+        font-size: 1rem;
+    }
 }
 
 
@@ -70,5 +74,9 @@ textarea {
 @media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+    input:focus,
+    textarea:focus {
+        font-size: 1rem;
     }
 }

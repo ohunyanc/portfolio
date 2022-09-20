@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useRef }  from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {AiFillTwitterSquare} from 'react-icons/ai'
 import {ImWhatsapp} from 'react-icons/im'
+ 
+import emailjs from 'emailjs-com'
 
-const contact = () => {
+
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xbba81h', 'template_jz1hwnm', form.current, 'QGLMARO_RMPdaPxOW')
+      
+    e.target.reset()
+    };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -15,8 +28,8 @@ const contact = () => {
           <article className="contact__option">
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>yescharly@outlook.com</h5>
-            <a href='mailto:yescharly@outlook.com' target='_blank' rel="oopener noreferrer">Send a message</a>
+            <h5>Drop a note</h5>
+            <a href='mailto:ohunyancharles@gmail.com' target='_blank' rel="oopener noreferrer">Send a message</a>
 
           </article>
 
@@ -37,7 +50,7 @@ const contact = () => {
           </article>
         </div>
         {/*end of contact options*/}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
@@ -49,4 +62,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

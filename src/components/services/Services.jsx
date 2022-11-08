@@ -1,10 +1,10 @@
-import React from 'react'
-import './services.css'
-import {BsBookmarkCheckFill} from 'react-icons/bs'
+import React from "react";
+import "./services.css";
+import { BsBookmarkCheckFill } from "react-icons/bs";
 
 export const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -14,30 +14,18 @@ export const Services = () => {
             <h3>Web Development</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Continous Integration/Continous Deployment</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>SEO for better search rankings.</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>E-commerce Business Models and Scaling</p>
             </li>
           </ul>
         </article>
@@ -48,30 +36,18 @@ export const Services = () => {
             <h3>Content Creation</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Content Development for Blogs</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Content management with Socail media.</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Attention to progresive insight with Analytics.</p>
             </li>
           </ul>
         </article>
@@ -82,37 +58,25 @@ export const Services = () => {
             <h3>Cloud Computing</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Penetration testing, finding vulnerabilties.</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Deploying Applications on the Cloud.</p>
             </li>
             <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BsBookmarkCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <BsBookmarkCheckFill className="service__list-icon" />
+              <p>Employment of Virtual machines for Saftey and testing</p>
             </li>
           </ul>
         </article>
         {/*end of cloud computing*/}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

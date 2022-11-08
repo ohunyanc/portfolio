@@ -25,7 +25,7 @@ export const Services = () => {
             </li>
             <li>
               <BsBookmarkCheckFill className="service__list-icon" />
-              <p>E-commerce Business Models and Scaling</p>
+              <p>website Business Models and Transactional Scaling</p>
             </li>
           </ul>
         </article>

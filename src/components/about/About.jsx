@@ -48,7 +48,7 @@ const about = () => {
             Interested in up-to-date techological practices by industry
             standards, i work well independently as well as in a team as i
             believe in the power of collaborative exploits on and off
-            professional settings{" "}
+            professional settings
           </p>
 
           <a href="#contact" className="btn btn-primary">

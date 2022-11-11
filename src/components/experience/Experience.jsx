@@ -1,6 +1,6 @@
-import React from 'react'
-import './experience.css'
-import {BsFillCheckCircleFill} from 'react-icons/bs'
+import React from "react";
+import "./experience.css";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const experience = () => {
   return (
@@ -12,99 +12,96 @@ const experience = () => {
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>HTML</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>HTML</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>CSS</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>CSS</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Exprienced</small>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>ReactJS</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>ReactJS</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>Tailwind</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>Tailwind</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
-
           </div>
         </div>
 
-        {/* End of Front*/
-        }
-      <div className="experience__backend">
-        <h3>Backend Development</h3>
+        {/* End of Front*/}
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>NodeJS</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>NodeJS</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>SQL</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>SQL</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>PHP</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>PHP</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>Python</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>Python</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsFillCheckCircleFill className='experience__details-icon'/>
+            <article className="experience__details">
+              <BsFillCheckCircleFill className="experience__details-icon" />
               <div>
-               <h4>MongoDB</h4>
-               <small className='text-light'>Exprienced</small>
+                <h4>MongoDB</h4>
+                <small className="text-light">Exprienced</small>
               </div>
             </article>
           </div>
         </div>
-        </div>
-  
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default experience
+export default experience;

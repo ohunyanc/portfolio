@@ -40,9 +40,9 @@ const about = () => {
           </div>
 
           <p>
-            Web Developer from Lagos, Nigeria with a keen eye for design and
-            functionality, goal oriented and result driven with an approach to
-            continous learning and standard operational measures.
+            Web Developer from Lagos, Nigeria with a keen eye for design,
+            functionality and maintenance. goal oriented and result driven with
+            an approach to continous learning and standard operational measures.
           </p>
           <p>
             Interested in up-to-date techological practices by industry

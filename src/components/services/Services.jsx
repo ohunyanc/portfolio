@@ -65,11 +65,11 @@ export const Services = () => {
             </li>
             <li>
               <BsBookmarkCheckFill className="service__list-icon" />
-              <p>Deploying Applications and security on the Cloud.</p>
+              <p>Deployment of Applications with security on the Cloud.</p>
             </li>
             <li>
               <BsBookmarkCheckFill className="service__list-icon" />
-              <p>Employment of Virtual machines for Safety and testing</p>
+              <p>Deployment of Virtual machines for Safety and testing</p>
             </li>
           </ul>
         </article>

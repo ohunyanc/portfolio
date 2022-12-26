@@ -40,15 +40,15 @@ const about = () => {
           </div>
 
           <p>
-            Developer with a keen eye for design and functionality, goal
-            oriented and result driven with an approach to continous learning
-            and standard operational measures.
+            Web Developer from Lagos, Nigeria with a keen eye for design and
+            functionality, goal oriented and result driven with an approach to
+            continous learning and standard operational measures.
           </p>
           <p>
             Interested in up-to-date techological practices by industry
-            standards, i work well independently as well as in a team as i
-            believe in the power of collaborative exploits on and off
-            professional settings
+            standards, i work well independently as well as in a team. I believe
+            in the power of collaborative exploits on and off professional
+            endevours.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -47,9 +47,9 @@ const about = () => {
           </p>
           <p>
             Interested in up-to-date techological practices by industry
-            standards, i work well independently as well as in a team. I believe
-            in the power of collaborative exploits on and off professional
-            endevours.
+            standards, to work well independently as well as in a team. I
+            believe in the power of collaborative exploits on and off
+            professional endeavours.
           </p>
 
           <a href="#contact" className="btn btn-primary">
